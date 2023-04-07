@@ -6,7 +6,7 @@ import numpy as np
 
 def guess_number(number):
     min = 1
-    max = 1000
+    max = 100
     guess = None
     attempts = 0
     max_attemps = 20
@@ -24,4 +24,4 @@ def guess_number(number):
 
     return f"Загаданное число {number} не было найдено за {max_attemps} попыток"
     
-print(guess_number(20))    
+print(guess_number(99))    
